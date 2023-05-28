@@ -170,3 +170,45 @@ justify-content: center;
     color: white;
     text-align: center;
   }
+
+@media (max-width : 600px){
+
+  .clouds{
+  margin-bottom: 40px;
+}
+
+.cloud2{
+  display: none;
+}
+
+.name-text > h2{
+  font-size: 35px;
+}
+
+.name-text > h1{
+  font-size: 45px;
+}
+
+.container-skills{
+  height: 120vh;
+
+}
+.grid-container{
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px  200px 200px;
+}
+
+.grid-container-container{
+  margin-top: 200px;
+}
+
+.container-projects{
+  height: 45vh;
+}
+
+li{
+  font-size: 18;
+  margin-bottom: 30px;
+}
+}
+
