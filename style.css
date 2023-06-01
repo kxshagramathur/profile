@@ -6,7 +6,6 @@ html,body{
   padding: 0px;
 }
 
-
 .container-homepage {
   background-color: #191825;
   height: 85vh;
@@ -48,7 +47,7 @@ html,body{
   margin-top: 0;
   color: orange;
   font-size: 38;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   order: 3;
 }
 
@@ -79,104 +78,101 @@ html,body{
   margin-left: 40px;
   margin-right: 40px;
   margin-bottom: 60px;
-text-align: center;
-
+  text-align: center;
 }
 
-.container-skills{
-text-align: center;
-background-color:#B942F0;
-padding-top: 20px;
-height: 70vh;
+.container-skills {
+  text-align: center;
+  background-color: #b942f0;
+  padding-top: 20px;
+  height: 70vh;
 }
 
-.container-skills > h2{
-    margin-top: 0%;
-    font-family: "PT Serif", serif;
-    font-size: 38;
-    color: white;
-
+.container-skills > h2 {
+  margin-top: 0%;
+  font-family: "PT Serif", serif;
+  font-size: 38;
+  color: white;
 }
 
-.grid-container-container{
+.grid-container-container {
   display: flex;
   height: 60vh;
   justify-content: center;
   align-items: center;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
-    grid-template-rows: 200px 200px;
-    place-items: center;
-    gap: 10px;
-  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px;
+  place-items: center;
+  gap: 10px;
+}
 
-  .grid-container > div > p{
-    color: white;
-    font-family: "Nanum Gothic", sans-serif;
-    font-size: 18;
-  }
+.grid-container > div > p {
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 18;
+}
 
-  .container-projects{
-    width: 100%;
-    background-color: #865dff;
-    height: 45vh;
+.container-projects {
+  width: 100%;
+  background-color: #865dff;
+  height: 45vh;
 
-    padding-top: 20px;
-  }
+  padding-top: 20px;
+}
 
-  .project-heading > h2{
-    margin-top: 0%;
-    font-family: "PT Serif", serif;
-    font-size: 38;
-    color: white;
-    text-align: center;
-  }
+.project-heading > h2 {
+  margin-top: 0%;
+  font-family: "PT Serif", serif;
+  font-size: 38;
+  color: white;
+  text-align: center;
+}
 
-  li > h4{
-    display: inline;
-  }
+li > h4 {
+  display: inline;
+}
 
-  .projects{
-display: flex;
-height: 20vh;
-justify-content: center;
-  }
+.projects {
+  display: flex;
+  height: 20vh;
+  justify-content: center;
+}
 
-  li{
-    color: white;
-    font-family: "Nanum Gothic", sans-serif;
-    font-size: 24;
-    margin-bottom: 15px;
-  }
+li {
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 24;
+  margin-bottom: 15px;
+}
 
+.footer {
+  width: 100%;
+  background-color: #191825;
+  height: 10vh;
+  padding: 50px 0 20px;
+}
 
-  .footer{
-    width: 100%;
-    background-color: #191825;
-    height: 10vh;
-    padding: 50px 0 20px;
-  }
+a {
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
 
-  a {
-    color: white;
-    font-family: "Nanum Gothic", sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
-  }
+a:hover {
+  color: #865dff;
+}
 
-  a:hover {
-    color: #865dff;
-  }
+.footer {
+  color: white;
+  text-align: center;
+}
 
-  .footer{
-    color: white;
-    text-align: center;
-  }
-
-@media (max-width : 600px){
+@media (max-width : 620px){
 
   .clouds{
   margin-bottom: 40px;
@@ -192,6 +188,10 @@ justify-content: center;
 
 .name-text > h1{
   font-size: 45px;
+}
+
+.name-text > p{
+margin-bottom: 115px;
 }
 
 .container-skills{
